@@ -84,7 +84,9 @@ class knapsack{
 		int[] remain=new int[total];
 		
 		while(true){
-			if(goal>arr[i].Gettime()){
+			if(goal==0)
+				break;
+			else if(goal>=arr[i].Gettime()){
 				goal-=arr[i].Gettime();
 				sequence[n].Setname(arr[i].Getname());
 				sequence[n].Settime(arr[i].Gettime());
