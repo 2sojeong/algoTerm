@@ -28,9 +28,11 @@ public class Result extends AppCompatActivity {
         output1 = result.substring(0,check);
         output2 = result.substring(check+1);
 
+        //화면 textview의 출력 text 설정
         TextView studyText = (TextView) findViewById(R.id.studySeq);
         TextView remainText = (TextView) findViewById(R.id.remainStu);
-        //Log.d("My tag2",result);
+
+        //setText로 내용 변경 후 출력
         studyText.setText(output1);
         remainText.setText(output2);
 
