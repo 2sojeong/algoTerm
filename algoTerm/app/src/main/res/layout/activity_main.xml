@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.algoterm.MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/block0"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/block0_object"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="공부할 과목"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block0_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="목표 시간"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block0_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="중요도"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/block1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/block1_object"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="공부할 과목"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block1_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="목표 시간"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block1_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="중요도"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/block2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/block2_object"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="공부할 과목"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block2_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="목표 시간"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block2_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="중요도"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/block3"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/block3_object"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="공부할 과목"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block3_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="목표 시간"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block3_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="중요도"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/block4"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/block4_object"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="공부할 과목"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block4_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="목표 시간"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block4_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="중요도"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/block5"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/block5_object"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="공부할 과목"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block5_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="목표 시간"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block5_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="중요도"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/block6"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/block6_object"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="공부할 과목"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block6_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="목표 시간"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block6_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="중요도"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/block7"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/block7_object"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="공부할 과목"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block7_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="목표 시간"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block7_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="중요도"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/block8"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/block8_object"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="공부할 과목"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block8_time"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="목표 시간"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+        <EditText
+            android:id="@+id/block8_val"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="중요도"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="357dp"
+            tools:layout_editor_absoluteY="144dp" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:background="@color/black"
+        android:backgroundTint="#020101"
+        android:onClick="btn"
+        android:text="+"
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="453dp"
+        tools:layout_editor_absoluteY="851dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="109dp"
+        android:layout_height="54dp"
+        android:background="@color/black"
+        android:backgroundTint="#020101"
+        android:layout_marginLeft="300dp"
+        android:onClick="btn"
+        android:text="Run"
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="453dp"
+        tools:layout_editor_absoluteY="851dp" />
+</LinearLayout>
